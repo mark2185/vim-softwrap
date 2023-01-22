@@ -40,8 +40,3 @@ endif
 autocmd ColorScheme * highlight default SoftWrapHighlightGroup ctermbg=NONE ctermfg=NONE cterm=bold
 
 nnoremap <silent> <Plug>(SoftwrapShow) :call softwrap#showSoftwrap()<cr>
-
-augroup softwrap
-    autocmd!
-    autocmd CursorHold * call softwrap#showSoftwrap()
-augroup END

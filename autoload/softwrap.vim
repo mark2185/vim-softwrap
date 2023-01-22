@@ -56,5 +56,5 @@ function! softwrap#showSoftwrap() abort
     \   }
     \ )
 
-  exe printf('nnoremap <expr> <buffer> <silent> %s popup_close("%s")', g:softwrap_close_popup_mapping, popup)
+  " exe printf('nnoremap <expr> <buffer> <silent> %s popup_close("%s")', g:softwrap_close_popup_mapping, popup)
 endfunction
